@@ -20,13 +20,13 @@ public class LabelFrame extends JFrame
         setLayout(new FlowLayout()); //configura o layout de frame
 
         // Construtor Jlabel com um argumento de string
-        label1 = new JLabel("Label with text");
+        label1 = new JLabel("");
         label1.setToolTipText(" This is label1");
         add(label1); //adiciona o label1 ao frame
 
         //Construtor Jlabel com string, Icon e argumentos de alinhamento
-        Icon bug = new ImageIcon(getClass().getResource("bug1.png"));
-        label2 = new JLabel("Label with text and icon", bug,
+        Icon bug = new ImageIcon(getClass().getResource("logoifmt.png"));
+        label2 = new JLabel(" INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO", bug,
                 SwingConstants.LEFT);
         label2.setToolTipText("This is label2");
         add(label2); //adicionalabel2 ao JFrame
